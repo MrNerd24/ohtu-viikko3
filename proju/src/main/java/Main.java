@@ -2,9 +2,12 @@ import java.util.*;
 import ohtu.Multiplier;
 
 public class Main {
+
+    private static final int MAGIC_THREE = 3;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Multiplier kolme = new Multiplier(3);
+        Multiplier kolme = new Multiplier(MAGIC_THREE);
         System.out.println("anna luku ");
         int luku = scanner.nextInt();
 
